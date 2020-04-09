@@ -1,0 +1,18 @@
+a=[]
+a.append("meena")
+a.insert(1,22)
+print("FIRST LIST",a)
+b=[]
+b.insert(0,44)
+b.append("rekha")
+b.append(True)
+print("SECOND LIST",b)
+c=(1,2,True,44,33,"rekha")
+print("elements at 1st position of tuple",c[1])
+print("elements at 2nd position of tuple",c[2])
+print("elements at 3rd position of tuple",c[3])
+print("elements at 4th position of tuple",c[4])
+d={1:"python",2:"course",3:"started",4:"now"}
+del d[2]
+del d[3]
+print("dictionary elements after deleting with key elements 2 and 3",d)
